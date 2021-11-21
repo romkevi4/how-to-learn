@@ -9,8 +9,9 @@
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
   font-size: 16px;
   font-weight: normal;
-  color: #000000;
+  color: #000;
 }
+
 
 /* Header */
 .header {
@@ -96,9 +97,64 @@
   right: 0;
 }
 
+
 /* Description */
+.description {
+  /* display: flex; */
+}
 
+.two-columns {
+  margin: 100px auto;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
+.two-columns__brief {
+  padding: 0;
+  width: 175px;
+}
+
+.two-columns__title {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+  color: #2f80ed;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.two-columns__paragraf {
+  padding-bottom: 30px;
+}
+
+.two-columns__paragraf:last-of-type {
+  padding-bottom: 0;
+}
+
+.two-columns__text {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 34px;
+}
+
+.two-columns__span-accent {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+}
 
 
 
