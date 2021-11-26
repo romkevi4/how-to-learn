@@ -10,298 +10,201 @@
 <body>
   <div class="page">
     <header class="header">
-      <div class="logo logo_place_header">
-        <img src="./images/logo_place_header.svg" alt="Здесь должен быть логотип">
-      </div>
-      <div class="header__title">
-        <div class="header__wrapper">
-          <h1 class="header__text-title">Научиться учиться</h1>
-        </div>
-      </div> <!-- .header__title -->
-      <div class="header__subtitle">
-        <h2 class="header__text">Какие современные и эффективные подходы к обучению Вы можете 
-          использовать в своей жизни?&nbsp;<a href="#" class="header__link">Узнать &rarr;</a>
-        </h2>
-      </div>
-      <div class="header__main-illustration">
-        <img src="./images/header-image.png" alt="Здесь должна быть картинка мальчика" class="header__image">
-      </div>
+      <img src="./images/logo_place_header.svg" alt="Здесь изображён логотип Яндекс Практикума" class="logo logo_place_header">
+      <h1 class="header__title">Научиться учиться</h1>
+      <p class="header__subtitle">Какие современные и эффективные подходы к обучению Вы можете 
+        использовать в своей жизни?&nbsp;<a href="#" class="header__link">Узнать &rarr;</a>
+      </p>
+      <img src="./images/header-image.png" alt="Здесь изображён мальчик, получивший двойку в школе" class="header__main-illustration">
       <div class="header__square-pic"></div>
     </header>
     
     <main class="content">
       <section class="description">
-        <div class="two-columns">
-          <div class="two-columns__brief">
-            <h2 class="two-columns__title">Главные проблемы в обучении</h2>
-          </div>
+        <!-- TODO: по рекомендации div ниже с классом two-columns заменил на article, но код перестает быть валидным, поэтому вернул div. 
+        Во время проверки в валидаторе просил добавить заголовок. Буду признателен за Ваши комментарии и рекомендации на этот счёт. Спасибо.  -->
+        <div class="two-columns"> 
+          <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
-            <div class="two-columns__paragraf">
-              <p class="two-columns__text">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. 
-                Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи. 
-                Зубрежка быстро выветривается и не приносит пользы.</p>
-            </div>
-            <div class="two-columns__paragraf">
-              <p class="two-columns__text"><span class="two-columns__span-accent">Вывод:</span>&nbsp;учиться тоже нужно уметь, но почему-то этому мало где учат. 
-                Что с этим делать?
-              </p>
-            </div>
-            <div class="two-columns__paragraf">
-              <p class="two-columns__text">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его 
-                эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.
-              </p>
-            </div>
-          </div> .<!-- .two-columns__main-text -->
+            <p class="two-columns__paragraf">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. 
+              Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи. 
+              Зубрежка быстро выветривается и не приносит пользы.
+            </p>
+            <p class="two-columns__paragraf"><span class="two-columns__span-accent">Вывод:</span>&nbsp;учиться тоже нужно уметь, 
+              но почему-то этому мало где учат. Что с этим делать?
+            </p>
+            <p class="two-columns__paragraf">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его 
+              эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.
+            </p>
+          </div> <!-- .two-columns__main-text -->
         </div> <!-- .two-columns -->
       </section>
 
       <section class="digits">
-        <div class="section-title section-title_theme_light">
-          <h2 class="section-title__text">Цифры и факты</h2>
-        </div>
-        <div class="section-subtitle section-subtitle_theme_light">
-          <h3 class="section-subtitle__text">Про учёбу и мозг</h3>
-        </div>
-        <div class="table table_theme_light">
-          <div class="table__cell table__cell_theme_light">
-            <div class="table__heading table__heating_theme_light">
-              <h4 class="table__title">86 миллиардов</h4>
-            </div>
-            <div class="table__text table__text_theme_light">
-              <p class="table__paragraf">Число нейронов в мозге человека</p>
-            </div>
-          </div> <!-- .table__cell -->
+        <h2 class="section-title">Цифры и факты</h2>
+        <p class="section-subtitle">Про учёбу и мозг</p>
+        <div class="table">
+          <ul class="table__cell">
+            <li class="table__heading">86 миллиардов</li>
+            <li class="table__text">Число нейронов в мозге человека</li>
+          </ul> <!-- .table__cell -->
 
-          <div class="table__cell table__cell_theme_light">
-            <div class="table__heading table__heating_theme_light">
-              <h4 class="table__title">2,1 миллиарда</h4>
-            </div>
-            <div class="table__text table__text_theme_light">
-              <p class="table__paragraf">Число нуждающихся в повышении квалификации</p>
-              <p class="table__paragraf">Всемирный Банк, 2017</p>
-            </div>
-          </div> <!-- .table__cell -->
+          <ul class="table__cell">
+            <li class="table__heading">2,1 миллиарда</li>
+            <li class="table__text">Число нуждающихся в повышении квалификации</li>
+            <li class="table__text">Всемирный Банк, 2017</li>
+          </ul> <!-- .table__cell -->
 
-          <div class="table__cell table__cell_theme_light">
-            <div class="table__heading table__heating_theme_light">
-              <h4 class="table__title">1000 терабайт</h4>
-            </div>
-            <div class="table__text table__text_theme_light">
-              <p class="table__paragraf">Объём памяти человека</p>
-            </div>
-          </div> <!-- .table__cell -->
+          <ul class="table__cell">
+            <li class="table__heading">1000 терабайт</li>
+            <li class="table__text">Объём памяти человека</li>
+          </ul> <!-- .table__cell -->
 
-          <div class="table__cell table__cell_theme_light">
-            <div class="table__heading table__heating_theme_light">
-              <h4 class="table__title">500 триллионов</h4>
-            </div>
-            <div class="table__text table__text_theme_light">
-              <p class="table__paragraf">Число ответственных за обучение нервных синапсов у взрослого человека</p>
-            </div>
-          </div> <!-- .table__cell -->
+          <ul class="table__cell">
+            <li class="table__heading">500 триллионов</li>
+            <li class="table__text">Число ответственных за обучение нервных синапсов у взрослого человека</li>
+          </ul> <!-- .table__cell -->
 
-          <div class="table__cell table__cell_theme_light">
-            <div class="table__heading table__heating_theme_light">
-              <h4 class="table__title">420 миллионов</h4>
-            </div>
-            <div class="table__text table__text_theme_light">
-              <p class="table__paragraf">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>
-              <p class="table__paragraf">Всемирный Банк, 2017</p>
-            </div>
-          </div> <!-- .table__cell -->
+          <ul class="table__cell">
+            <li class="table__heading">420 миллионов</li>
+            <li class="table__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</li>
+            <li class="table__text">Всемирный Банк, 2017</li>
+          </ul> <!-- .table__cell -->
 
-          <div class="table__cell table__cell_theme_light">
-            <div class="table__heading table__heating_theme_light">
-              <h4 class="table__title">17-20 лет</h4>
-            </div>
-            <div class="table__text table__text_theme_light">
-              <p class="table__paragraf">Пик обучаемости</p>
-            </div>
-          </div> <!-- .table__cell -->
+          <ul class="table__cell">
+            <li class="table__heading">17-20 лет</li>
+            <li class="table__text">Пик обучаемости</li>
+          </ul> <!-- .table__cell -->
 
-          <div class="table__cell table__cell_theme_light">
-            <div class="table__heading table__heating_theme_light">
-              <h4 class="table__title">1885 год</h4>
-            </div>
-            <div class="table__text table__text_theme_light">
-              <p class="table__paragraf">Открытие кривой забывания</p>
-            </div>
-          </div> <!-- .table__cell -->
+          <ul class="table__cell">
+            <li class="table__heading">1885 год</li>
+            <li class="table__text">Открытие кривой забывания</li>
+          </ul> <!-- .table__cell -->
 
-          <div class="table__cell table__cell_theme_light">
-            <div class="table__heading table__heating_theme_light">
-              <h4 class="table__title">1889 год</h4>
-            </div>
-            <div class="table__text table__text_theme_light">
-              <p class="table__paragraf">Открытие условного рефлекса</p>
-            </div>
-          </div> <!-- .table__cell -->
+          <ul class="table__cell">
+            <li class="table__heading">1889 год</li>
+            <li class="table__text">Открытие условного рефлекса</li>
+          </ul> <!-- .table__cell -->
         </div> <!-- .table -->
       </section>
 
       <section class="feynman">
-        <div class="feynman__title">
-          <h2 class="feynman__text-title">Метод Фейнмана</h2>
-        </div>
-        <div class="feynman__subtitle">
-          <h3 class="feynman__text-subtitle">Выучить и не забыть</h3>
-        </div>
-        <div class="feynman__link">
-          <a href="#" class="feynman__tex-link">Подробнее &rarr;</a>
-        </div>
-        
-      </section>
+        <h2 class="feynman__title">Метод Фейнмана</h2>
+        <p class="feynman__subtitle">Выучить и не забыть</p>
+        <a href="#" class="feynman__link">Подробнее &rarr;</a>
+      </section>  
 
       <section class="kaufman">
-        <div class="section-title section-title_theme_dark">
-          <h2 class="section-title__text">Принципы обучения</h2>
-        </div>
-        <div class="section-subtitle section-subtitle_theme_dark">
-          <h3 class="section-subtitle__text">от Джоша Кауфмана</h3>
-        </div>
+        <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
+        <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
         <div class="table table_theme_dark">
-          <div class="table__cell table__cell_theme_dark">
-            <div class="table__heading table__heating_theme_dark">
-              <h4 class="table__title">1</h4>
-            </div>
-            <div class="table__text table__text_theme_dark">
-              <p class="table__paragraf">Выберете привлекательный проект.</p>
-            </div>
-          </div> <!-- .table__cell -->
+          <ul class="table__cell table__cell_theme_dark">
+            <li class="table__heading table__heading_theme_dark">1</li>
+            <li class="table__text table__text_theme_dark">Выберете привлекательный проект.</li>
+          </ul> <!-- .table__cell -->
 
-          <div class="table__cell table__cell_theme_dark">
-            <div class="table__heading table__heating_theme_dark">
-              <h4 class="table__title">2</h4>
-            </div>
-            <div class="table__text table__text_theme_dark">
-              <p class="table__paragraf">Сосредоточтесь на каком-то одном навыке.</p>
-            </div>
-          </div> <!-- .table__cell -->
+          <ul class="table__cell table__cell_theme_dark">
+            <li class="table__heading table__heading_theme_dark">2</li>
+            <li class="table__text table__text_theme_dark">Сосредоточтесь на каком-то одном навыке.</li>
+          </ul> <!-- .table__cell -->
 
-          <div class="table__cell table__cell_theme_dark">
-            <div class="table__heading table__heating_theme_dark">
-              <h4 class="table__title">3</h4>
-            </div>
-            <div class="table__text table__text_theme_dark">
-              <p class="table__paragraf">Определите целевой уровень мастерства.</p>
-            </div>
-          </div> <!-- .table__cell -->
+          <ul class="table__cell table__cell_theme_dark">
+            <li class="table__heading table__heading_theme_dark">3</li>
+            <li class="table__text table__text_theme_dark">Определите целевой уровень мастерства.</li>
+          </ul> <!-- .table__cell -->
 
-          <div class="table__cell table__cell_theme_dark">
-            <div class="table__heading table__heating_theme_dark">
-              <h4 class="table__title">4</h4>
-            </div>
-            <div class="table__text table__text_theme_dark">
-              <p class="table__paragraf">Разбейте навык на элементы.</p>
-            </div>
-          </div> <!-- .table__cell -->
+          <ul class="table__cell table__cell_theme_dark">
+            <li class="table__heading table__heading_theme_dark">4</li>
+            <li class="table__text table__text_theme_dark">Разбейте навык на элементы.</li>
+          </ul> <!-- .table__cell -->
 
-          <div class="table__cell table__cell_theme_dark">
-            <div class="table__heading table__heating_theme_dark">
-              <h4 class="table__title">5</h4>
-            </div>
-            <div class="table__text table__text_theme_dark">
-              <p class="table__paragraf">Приготовьте всё необходимое для занятий.</p>
-            </div>
-          </div> <!-- .table__cell -->
+          <ul class="table__cell table__cell_theme_dark">
+            <li class="table__heading table__heading_theme_dark">5</li>
+            <li class="table__text table__text_theme_dark">Приготовьте всё необходимое для занятий.</li>
+          </ul> <!-- .table__cell -->
 
-          <div class="table__cell table__cell_theme_dark">
-            <div class="table__heading table__heating_theme_dark">
-              <h4 class="table__title">6</h4>
-            </div>
-            <div class="table__text table__text_theme_dark">
-              <p class="table__paragraf">Устраните препятствия для занятий.</p>
-            </div>
-          </div> <!-- .table__cell -->
+          <ul class="table__cell table__cell_theme_dark">
+            <li class="table__heading table__heading_theme_dark">6</li>
+            <li class="table__text table__text_theme_dark">Устраните препятствия для занятий.</li>
+          </ul> <!-- .table__cell -->
 
-          <div class="table__cell table__cell_theme_dark">
-            <div class="table__heading table__heating_theme_dark">
-              <h4 class="table__title">7</h4>
-            </div>
-            <div class="table__text table__text_theme_dark">
-              <p class="table__paragraf">Выделите специальное время для занятий.</p>
-            </div>
-          </div> <!-- .table__cell -->
+          <ul class="table__cell table__cell_theme_dark">
+            <li class="table__heading table__heading_theme_dark">7</li>
+            <li class="table__text table__text_theme_dark">Выделите специальное время для занятий.</li>
+          </ul> <!-- .table__cell -->
 
-          <div class="table__cell table__cell_theme_dark">
-            <div class="table__heading table__heating_theme_dark">
-              <h4 class="table__title">8</h4>
-            </div>
-            <div class="table__text table__text_theme_dark">
-              <p class="table__paragraf">Создайте быстрые петли обратной связи.</p>
-            </div>
-          </div> <!-- .table__cell -->
+          <ul class="table__cell table__cell_theme_dark">
+            <li class="table__heading table__heading_theme_dark">8</li>
+            <li class="table__text table__text_theme_dark">Создайте быстрые петли обратной связи.</li>
+          </ul> <!-- .table__cell -->
 
-          <div class="table__cell table__cell_theme_dark">
-            <div class="table__heading table__heating_theme_dark">
-              <h4 class="table__title">9</h4>
-            </div>
-            <div class="table__text table__text_theme_dark">
-              <p class="table__paragraf">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
-            </div>
-          </div> <!-- .table__cell -->
+          <ul class="table__cell table__cell_theme_dark">
+            <li class="table__heading table__heading_theme_dark">9</li>
+            <li class="table__text table__text_theme_dark">Занимайтесь по расписанию, короткими интенсивными интервалами.</li>
+          </ul> <!-- .table__cell -->
 
-          <div class="table__cell table__cell_theme_dark">
-            <div class="table__heading table__heating_theme_dark">
-              <h4 class="table__title">10</h4>
-            </div>
-            <div class="table__text table__text_theme_dark">
-              <p class="table__paragraf">Уделяйте внимание количеству и скорости.</p>
-            </div>
-          </div> <!-- .table__cell -->
+          <ul class="table__cell table__cell_theme_dark">
+            <li class="table__heading table__heading_theme_dark">10</li>
+            <li class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</li>
+          </ul> <!-- .table__cell -->
         </div> <!-- .table -->
         <div class="kaufman__triandle"></div>
       </section>
     </main>
 
     <footer class="footer">
-      <div class="footer__columns">
+      <article class="footer__columns">
         <div class="footer__column footet__column_content_copyright">
-          <div class="logo logo_place_footer">
-            <img src="./images/logo_place_footer.svg" alt="Здесь должен быть логотип">
-          </div>
-          <div class="footer__author">
-            <address class="footer__text">&COPY; 2019. Виктор Абанькин</address>
-          </div>
+          <img src="./images/logo_place_footer.svg" alt="Здесь изображён логотип Яндекс Практикума" class="logo logo_place_footer">
+          <address class="footer__author footer__text">&COPY; 2019. Виктор Абанькин</address>
         </div> <!-- .footet__column -->
+
         <div class="footer__column footer__column_content_info">
-          <div class="footer__column-heading">
+          <h3 class="footer__column-heading">О Практикуме</h3>
+          <nav class="footer__column-links">
             <ul class="footer__column-list">
-              <li class="footer__column-title">О Практикуме</li>
+              <li><a href="#" class="footer__column-link">Главная</a></li>
+              <li><a href="#" class="footer__column-link">Концепция</a></li>
+              <li><a href="#" class="footer__column-link">Наставники</a></li>
             </ul>
-          </div>
-          <div class="footer__column-links">
-            <ul class="footer__column-list">
-              <li class="footer__column-list"><a href="#" class="footer__column-link">Главная</a></li>
-              <li class="footer__column-list"><a href="#" class="footer__column-link">Концепция</a></li>
-              <li class="footer__column-list"><a href="#" class="footer__column-link">Наставники</a></li>
-            </ul>
-          </div>
+          </nav>
         </div> <!-- .footer__column -->
+
         <div class="footer__column footer__column_content_social">
-          <div class="footer__column-heading">
+          <h3 class="footer__column-heading">Соцсети</h3>
+          <nav class="footer__column-links">
             <ul class="footer__column-list">
-              <li class="footer__column-title">Соцсети</li>
+              <li>
+                <a href="#" class="footer__column-link">
+                  <img 
+                    src="./images/facebook_color_white.svg" 
+                    alt="Здесь изображена иконка социальной сети facebook" 
+                    class="footer__social-icon"
+                  >Facebook
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer__column-link">
+                  <img 
+                    src="./images/vk_color_white.svg" 
+                    alt="Здесь изображена иконка социальной сети Вконтакте" 
+                    class="footer__social-icon"
+                  >Вконтакте
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer__column-link">
+                  <img 
+                    src="./images/instagram_color_white.svg" 
+                    alt="Здесь изображена иконка социальной сети Instagram" 
+                    class="footer__social-icon"
+                  >Instagram
+                </a>
+              </li>
             </ul>
-          </div>
-          <div class="footer__column-links">
-            <ul class="footer__column-list">
-              <li class="footer__column-list">
-                <a href="#"><img src="./images/facebook_color_white.svg" alt="Здесь должна быть иконка facebook" class="footer__social-icon"></a>
-                <a href="#" class="footer__column-link">Facebook</a>
-              </li>
-              <li class="footer__column-list">
-                <a href="#"><img src="./images/vk_color_white.svg" alt="Здесь должна быть иконка Вконтакте" class="footer__social-icon"></a>
-                <a href="#" class="footer__column-link">Вконтакте</a>
-              </li>
-              <li class="footer__column-list">
-                <a href="#"><img src="./images/instagram_color_white.svg" alt="Здесь должна быть иконка Instagram" class="footer__social-icon"></a>
-                <a href="#" class="footer__column-link">Instagram</a>
-              </li>
-            </ul>
-          </div>
+          </nav>
         </div> <!-- .footer__column -->
-      </div> <!-- .footer__columns -->
+      </article> <!-- .footer__columns -->
     </footer>
   </div> <!-- .page -->
 </body>
