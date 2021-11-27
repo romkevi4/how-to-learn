@@ -18,6 +18,8 @@
   padding: 0;
   position: relative;
   background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -38,7 +40,6 @@
 
 .header__title {
   width: 730px;
-  min-height: 756px;
   margin: 0;
   padding: 0 0 0 64px;
   display: flex;
@@ -239,6 +240,10 @@
   font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
+}
+
+.table__text:last-child {
+  padding: 0;
 }
 
 
