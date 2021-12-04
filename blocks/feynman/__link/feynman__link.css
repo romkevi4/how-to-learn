@@ -1,0 +1,20 @@
+/* Feynman */
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+
+  text-decoration: none;
+  color: #2f80ed;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 51px;
+  text-align: center;
+  opacity: 1;
+  transition: opacity 180ms linear 3ms;
+}
+
+.feynman__link:hover {
+  opacity: .6;
+}
+

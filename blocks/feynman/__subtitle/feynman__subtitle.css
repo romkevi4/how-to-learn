@@ -1,0 +1,10 @@
+/* Feynman */
+.feynman__subtitle {
+  margin: 70px 0 0;
+  padding: 0;
+
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 51px;
+  text-align: center;
+}

@@ -1,0 +1,13 @@
+/* Description */
+.two-columns__paragraf {
+  margin: 0 0 30px;
+  padding: 0;
+
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 34px;
+}
+
+.two-columns__paragraf:last-of-type {
+  margin-bottom: 0;
+}

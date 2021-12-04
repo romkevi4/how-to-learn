@@ -1,0 +1,9 @@
+/* Footer */
+.footer__columns {
+  width: 90%;
+  margin: 60px auto 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}

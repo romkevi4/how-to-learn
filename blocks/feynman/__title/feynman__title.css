@@ -1,0 +1,11 @@
+/* Feynman */
+.feynman__title {
+  margin: 100px 0 0;
+  padding: 0;
+  width: 648px;
+
+  font-size: 120px;
+  font-weight: bold;
+  line-height: 1.15;
+  text-align: center;
+}
