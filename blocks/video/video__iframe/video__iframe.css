@@ -1,0 +1,9 @@
+/* Video */
+.video__iframe {
+  margin-right: 20px;
+  transform: translateY(60px);
+}
+
+.video__iframe:last-child {
+  margin-right: 0;
+}

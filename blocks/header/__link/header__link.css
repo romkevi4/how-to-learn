@@ -3,7 +3,7 @@
   text-decoration: none;
   color: #2f80ed;
   opacity: 1;
-  transition: opacity 180ms linear 3ms;
+  transition: opacity 180ms linear 2ms;
 }
 
 .header__link:hover {

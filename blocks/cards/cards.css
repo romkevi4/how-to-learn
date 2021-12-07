@@ -1,0 +1,9 @@
+/* Techniques */
+.cards {
+  margin: auto;
+  padding: 0;
+  width: 920px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 240px);
+  gap: 60px 100px;
+}

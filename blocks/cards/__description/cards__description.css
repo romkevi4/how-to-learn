@@ -1,0 +1,11 @@
+/* Techniques */
+.cards__description {
+  margin: 0;
+  padding: 0;
+  width: 95%;
+
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 23px;
+  text-align: center;
+}
