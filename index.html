@@ -23,11 +23,11 @@
         alt="Здесь изображён мальчик, получивший двойку в школе" 
         class="header__main-illustration"
       >
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
     
     <main class="content">
-      <section class="description">
+      <section class="description page_indent-top_100px">
         <article class="two-columns"> 
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
@@ -45,7 +45,112 @@
         </article> <!-- .two-columns -->
       </section>
 
-      <section class="digits">
+      <section class="techniques page_indent-top_100px">
+        <h2 class="section-title">Техники обучения</h2>
+        <p class="section-subtitle">Пять практик Барбары Оакли</p>
+        <ul class="cards">
+          <li class="cards__item">
+            <img 
+              src="./images/cards/__image/cards-attention.png" 
+              alt="Изображена книга о 1001 эссе об изменении мышления" 
+              class="cards__image"
+            >
+            <h3 class="cards__title">Два вида внимания</h3>
+            <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+          </li> <!-- .cards__item -->
+
+          <li class="cards__item">
+            <img 
+              src="./images/cards/__image/cards-recall.png" 
+              alt="Изображена скульптура мальчика" 
+              class="cards__image"
+            >
+            <h3 class="cards__title">Recall</h3>
+            <p class="cards__description">Вспоминайте изученное - это позволит соединить разрозненные порции памяти.</p>
+          </li> <!-- .cards__item -->
+
+          <li class="cards__item">
+            <img 
+              src="./images/cards/__image/cards-interliving.png" 
+              alt="Изображен вид с лестницы на проход с высоким потолком" 
+              class="cards__image"
+            >
+            <h3 class="cards__title">Интерливинг</h3>
+            <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
+          </li> <!-- .cards__item -->
+
+          <li class="cards__item">
+            <img 
+              src="./images/cards/__image/cards-question.png" 
+              alt="Изображен человек в пустом здании" 
+              class="cards__image"
+            >
+            <h3 class="cards__title">Вопросы</h3>
+            <p class="cards__description">Слушай преподавателя, придумывайте хороший вопрос, который Вас действительно волнует.</p>
+          </li> <!-- .cards__item -->
+
+          <li class="cards__item">
+            <img 
+              src="./images/cards/__image/cards-competence.png" 
+              alt="Изображена рука, на которой лежит стопка книг" 
+              class="cards__image"
+            >
+            <h3 class="cards__title">Иллюзия компетентности</h3>
+            <p class="cards__description">Повторите про себя, запишите, расскажите другу: Вам только кажется, что Вы владеете новой темой.</p>
+          </li> <!-- .cards__item -->
+        </ul> <!-- .cards -->
+      </section>
+
+      <section class="video page_indent-top_100px">
+        <h2 class="section-title">Видео на TED</h2>
+        <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
+        <div class="video__iframes">
+          <iframe 
+            src="https://www.youtube.com//embed/5MgBikgcWnY" 
+            width="515" 
+            height="316" 
+            allowfullscreen
+            class="video__iframe">
+          </iframe>
+          <!-- Ваш браузер не поддерживает iframe, поэтому не может показать классное видео с youtube -->
+          <!-- Выше сделан текст для старых браузеров, которые не поддерживают iframe, но валидатор 
+          выдаёт ошибку. В чеклисте указано, что ошибок быть не должно, поэтому этот текст я закомментировал и вынес из iframe -->
+
+          <iframe 
+            src="https://www.youtube.com//embed/arj7oStGLkU" 
+            width="515" 
+            height="316"  
+            allowfullscreen 
+            class="video__iframe">
+          </iframe>
+          <!-- Ваш браузер не поддерживает iframe, поэтому не может показать классное видео с youtube -->
+          <!-- Выше сделан текст для старых браузеров, которые не поддерживают iframe, но валидатор 
+          выдаёт ошибку. В чеклисте указано, что ошибок быть не должно, поэтому этот текст я закомментировал и вынес из iframe -->
+        </div> <!-- .video__iframes -->
+      </section>
+
+      <section class="oakley">
+        <article class="two-columns"> 
+          <h2 class="two-columns__brief">История Барбары Оакли</h2>
+          <div class="two-columns__main-text">
+            <p class="two-columns__paragraf">
+              С детства Барбаре не давалась математика. Она считала себя законченным гумманитарием, причём не самым умным. 
+              В армии она изучала русский язык, чтобы получить надбавку, да так успешно, что её выдвинули в командиры. Но 
+              для продвижения по службе нужно было сдавать математику. И тогда Барбара придумала свой подход к точным наукам.
+              Оказалось, если Вам что-то &laquo;плохо даётся&raquo;, Ваши добытые трудом знания гораздо глубже, чем у тех, 
+              кому всё ясно с первого взгляда.              
+            </p>
+          </div> <!-- .two-columns__main-text -->
+        </article> <!-- .two-columns -->
+      </section>
+
+      <section class="feynman">
+        <h2 class="feynman__title">Метод Фейнмана</h2>
+        <p class="feynman__subtitle">Выучить и не забыть</p>
+        <a href="#" class="feynman__link">Подробнее &rarr;</a>
+      </section>  
+
+      <section class="digits page_indent-top_100px page_indent-bottom_100px">
         <h2 class="section-title">Цифры и факты</h2>
         <p class="section-subtitle">Про учёбу и мозг</p>
         <ul class="table">
@@ -93,11 +198,32 @@
         </ul> <!-- .table -->
       </section>
 
-      <section class="feynman">
-        <h2 class="feynman__title">Метод Фейнмана</h2>
-        <p class="feynman__subtitle">Выучить и не забыть</p>
-        <a href="#" class="feynman__link">Подробнее &rarr;</a>
-      </section>  
+      <section class="khan">
+        <article class="khan__container">
+          <p class="khan__author">Салман Хан</p>
+          <h2 class="khan__title">Весь мир &mdash; школа</h2>
+          <blockquote class="khan__quote">
+            <p class="khan__quote-text">
+              Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов
+              по всему миру. Книгу&nbsp;<cite class="khan__quote-text">&laquo;Весь мир &mdash; школа&raquo;</cite>&nbsp;
+              нужно прочитать всем, кто занимается образованием &mdash; так учащиеся повсюду 
+              смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни. 
+            </p>
+          </blockquote>
+          <p class="khan__quote-author">Джордж Лукас</p>
+          <p class="khan__quote-author-subline">Кинорежиссёр, продюсер</p>
+          <div class="khan__book-container">
+            <img 
+              src="./images/khan/__book-pic/khan-book.jpg" 
+              alt="Здесь изображена обложна книги Весь мир - школа Саламана Хана" 
+              width="620" 
+              height="608"
+              class="khan__book-pic"
+            >
+            <a href="#" class="khan__buy-link">Купить книгу &rarr;</a>
+          </div>
+        </article>
+      </section>
 
       <section class="kaufman">
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
@@ -153,7 +279,45 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li> <!-- .table__cell -->
         </ul> <!-- .table -->
-        <div class="kaufman__triandle"></div>
+        <div class="kaufman__triandle rotation"></div>
+      </section>
+
+      <section class="resources page_indent-top_100px page_indent-bottom_217px">
+        <h2 class="section-title">Полезные ресурсы</h2>
+        <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
+        <nav class="resources__logo-zone">
+          <a href="#">
+            <img 
+              src="./images/resources/__logo/resources-arzamas.svg" 
+              alt="Здесь изображен логотип Arzamas" 
+              class="resources__logo"
+            >
+          </a>
+
+          <a href="#">
+            <img 
+              src="./images/resources/__logo/resources-n1.svg" 
+              alt="Здесь изображен логотип N+1" 
+              class="resources__logo"
+            >
+          </a>
+
+          <a href="#">
+            <img 
+              src="./images/resources/__logo/resources-strelka.svg" 
+              alt="Здесь изображен логотип Strelka"
+              class="resources__logo"
+            >
+          </a>
+
+          <a href="#">
+            <img 
+              src="./images/resources/__logo/resources-polka.svg" 
+              alt="Здесь изображен логотип Полка" 
+              class="resources__logo"
+            >
+          </a>
+        </nav>
       </section>
     </main>
 
@@ -186,25 +350,27 @@
               <li>
                 <a href="#" class="footer__column-link">
                   <img 
-                    src="./images/facebook_color_white.svg" 
+                    src="./images/footer/__social-icon/facebook_color_white.svg" 
                     alt="Здесь изображена иконка социальной сети facebook" 
                     class="footer__social-icon"
                   >Facebook
                 </a>
               </li>
+
               <li>
                 <a href="#" class="footer__column-link">
                   <img 
-                    src="./images/vk_color_white.svg" 
+                    src="./images/footer/__social-icon/vk_color_white.svg" 
                     alt="Здесь изображена иконка социальной сети Вконтакте" 
                     class="footer__social-icon"
                   >Вконтакте
                 </a>
               </li>
+
               <li>
                 <a href="#" class="footer__column-link">
                   <img 
-                    src="./images/instagram_color_white.svg" 
+                    src="./images/footer/__social-icon/instagram_color_white.svg" 
                     alt="Здесь изображена иконка социальной сети Instagram" 
                     class="footer__social-icon"
                   >Instagram

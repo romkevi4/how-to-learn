@@ -1,7 +1,9 @@
 /* Video */
 .video__iframe {
   margin-right: 20px;
+  z-index: 1;
   transform: translateY(60px);
+  border: none;
 }
 
 .video__iframe:last-child {
