@@ -1,5 +1,6 @@
 /* Khan */
 .khan__book-container {
+  margin: auto;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
