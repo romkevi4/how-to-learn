@@ -107,25 +107,15 @@
         <div class="video__iframes">
           <iframe 
             src="https://www.youtube.com//embed/5MgBikgcWnY" 
-            width="515" 
-            height="316" 
             allowfullscreen
             class="video__iframe">
           </iframe>
-          <!-- Ваш браузер не поддерживает iframe, поэтому не может показать классное видео с youtube -->
-          <!-- Выше сделан текст для старых браузеров, которые не поддерживают iframe, но валидатор 
-          выдаёт ошибку. В чеклисте указано, что ошибок быть не должно, поэтому этот текст я закомментировал и вынес из iframe -->
 
           <iframe 
-            src="https://www.youtube.com//embed/arj7oStGLkU" 
-            width="515" 
-            height="316"  
+            src="https://www.youtube.com//embed/arj7oStGLkU"   
             allowfullscreen 
             class="video__iframe">
           </iframe>
-          <!-- Ваш браузер не поддерживает iframe, поэтому не может показать классное видео с youtube -->
-          <!-- Выше сделан текст для старых браузеров, которые не поддерживают iframe, но валидатор 
-          выдаёт ошибку. В чеклисте указано, что ошибок быть не должно, поэтому этот текст я закомментировал и вынес из iframe -->
         </div> <!-- .video__iframes -->
       </section>
 
@@ -203,13 +193,15 @@
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир &mdash; школа</h2>
           <blockquote class="khan__quote">
-            <p class="khan__quote-text">
               Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов
-              по всему миру. Книгу&nbsp;<cite class="khan__quote-text">&laquo;Весь мир &mdash; школа&raquo;</cite>&nbsp;
+              по всему миру. Книгу&nbsp;&laquo;Весь мир &mdash; школа&raquo;&nbsp;
               нужно прочитать всем, кто занимается образованием &mdash; так учащиеся повсюду 
-              смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни. 
-            </p>
+              смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.
           </blockquote>
+          <!-- Добрый вечер, Юрий. Я равильно понимаю, что если бы цитата была разбита на несколько
+          абзацев, то тогда нужно было бы добавлять теги <p></p>? А если бы еще был указан автор, то 
+          добавили бы тег <footer></footer>? --> 
+          <!-- Почему название книги не нужно выделять тегом <cite></cite>? -->
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссёр, продюсер</p>
           <div class="khan__book-container">
@@ -327,7 +319,7 @@
             alt="Здесь изображён логотип Яндекс Практикума" 
             class="logo logo_place_footer"
           >
-          <address class="footer__author footer__text">&COPY; 2019. Виктор Абанькин</address>
+          <address class="footer__author">&COPY; 2019. Виктор Абанькин</address>
         </div> <!-- .footet__column -->
 
         <div class="footer__column footer__column_content_info">
